@@ -1,0 +1,82 @@
+:root{
+    --color-fonts: rgb(255, 255, 255);
+    --color-main:rgb(61, 42, 42);
+    --color-button:rgb(118, 197, 118);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 100%;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color:var(--color-main);
+    text-decoration: none;
+    
+}
+.menu-contenedor {
+    display: flex;
+    gap: 2rem;
+    margin-left: 20px;
+    color: var(--color-fonts);
+    align-items:center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.menu-contenedor a{
+    display: flex;
+   text-decoration: none;
+   color: var(--color-fonts);
+}
+.button-buy{
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: var(--color-button);
+    color: var(--color-fonts);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.contenedor-1{
+    height: 70vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.caja{
+    background-color: blue;
+    width: 45%;
+    margin: 5px;
+    position: relative;
+}
+.anuncio{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 80px;
+}
+.contenedor-2{
+    height: 20vh;
+    background-color: rgb(156, 212, 191);
+}
+
+.contenedor-2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box{
+    align-self: center;
+    width: 15%;
+    background-color: red;
+    text-align: center;
+}
